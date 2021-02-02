@@ -38,6 +38,6 @@ public class ZeroBankLogin {
         String expected = "account-summary";
         wait.until(ExpectedConditions.urlContains(expected));
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expected));
-        Assert.assertEquals(5, 3+2);
+
     }
 }
