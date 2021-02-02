@@ -39,5 +39,7 @@ public class ZeroBankLogin {
         wait.until(ExpectedConditions.urlContains(expected));
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expected));
         Driver.closeDriver();
+
+        Assert.assertEquals(5, 2+3);
     }
 }
