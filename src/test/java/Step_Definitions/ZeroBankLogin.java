@@ -41,7 +41,5 @@ public class ZeroBankLogin {
         Driver.closeDriver();
 
 
-
-
     }
 }
