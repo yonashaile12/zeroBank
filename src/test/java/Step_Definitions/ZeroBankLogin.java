@@ -41,5 +41,6 @@ public class ZeroBankLogin {
         Driver.closeDriver();
 
         Assert.assertEquals(5, 2+3);
+        System.out.println(Driver.getDriver().getTitle());
     }
 }
